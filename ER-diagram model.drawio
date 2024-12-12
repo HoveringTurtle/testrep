@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="25.0.3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="25.0.3" pages="2">
   <diagram name="Страница — 1" id="jWM-t-ALITsWInv-GOMF">
     <mxGraphModel dx="999" dy="909" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -537,6 +537,44 @@
               <mxPoint x="1201" y="-5" />
             </Array>
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="GPzW2KrltikTpLinfGVo" name="Страница — 2">
+    <mxGraphModel dx="1164" dy="449" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="366jXTs8SKNUZn7wc-hG-1" value="Приказы" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="90" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="366jXTs8SKNUZn7wc-hG-2" value="+Номер_приказа&lt;br&gt;+дата&lt;br&gt;+текст_приказа" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="366jXTs8SKNUZn7wc-hG-1">
+          <mxGeometry y="50" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="366jXTs8SKNUZn7wc-hG-3" value="Табели" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="90" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="366jXTs8SKNUZn7wc-hG-4" value="+номер_табеля&lt;br&gt;+период&lt;br&gt;+отработанное_время" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="366jXTs8SKNUZn7wc-hG-3">
+          <mxGeometry y="50" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="366jXTs8SKNUZn7wc-hG-5" value="Расчётные_Счета" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="240" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="366jXTs8SKNUZn7wc-hG-6" value="+номер_счёта&lt;br&gt;+период&lt;br&gt;+начисления&lt;div&gt;+удержания&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="366jXTs8SKNUZn7wc-hG-5">
+          <mxGeometry y="50" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="366jXTs8SKNUZn7wc-hG-7" value="Начисления_Зарплаты" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="220" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="366jXTs8SKNUZn7wc-hG-8" value="+номер_начисления&lt;br&gt;+сотрудник&lt;br&gt;+сумма&lt;div&gt;+дата&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="366jXTs8SKNUZn7wc-hG-7">
+          <mxGeometry y="50" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="366jXTs8SKNUZn7wc-hG-9" value="Сотрудник" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="410" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="366jXTs8SKNUZn7wc-hG-10" value="+ФИО&lt;br&gt;+должность&lt;br&gt;+отдел" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="366jXTs8SKNUZn7wc-hG-9">
+          <mxGeometry y="50" width="160" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
